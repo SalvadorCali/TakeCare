@@ -1,0 +1,36 @@
+.right-showcase {
+    width: 100%;
+    height: 12em;
+    object-position: center;
+    object-fit: cover;
+}
+
+.mid-showcase {
+    width: 100%;
+    height: 13em;
+    object-position: center;
+    object-fit: cover;
+}
+
+.col-12.no-padding > *:not(img) {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #footer-container .col-12:nth-child(-n + 1) {
+        border-right: 1px solid rgba(255, 255, 255, .12);
+    }
+
+    #footer-container .col-12:not(:last-child) {
+        padding-left: 25px;
+        margin-bottom: 1em;
+    }
+
+    .col-12.no-padding > * {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

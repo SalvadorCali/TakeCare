@@ -1,0 +1,216 @@
+{
+  "locations": [
+    {
+      "id": "loc1",
+      "title": "Sede Clerici",
+      "address": "Via Clerici, 150, 20099 <br>Sesto San Giovanni MI, Italia",
+      "lat": 45.538365,
+      "lng": 9.208317,
+      "img": "locations/loc1.jpg",
+      "hours": "Lun - Sab: 9:00 - 21:00",
+      "tel": "(02) 33344566",
+      "mail": "clerici@takecare.com",
+      "fax": "123 456789",
+      "description": "Edficio messo a disposizione dal comune di Milano nella periferia della città. Sorge a breve distanza da un maneggio, il quale è convenzionato con la struttura e offre regolarmente brevi corsi di equitazione. La vicinanza con gli animali è notoriamente positiva nei giovani affetti da autismo.",
+      "services": [
+        "service1",
+        "service4",
+        "service5"
+      ]
+    },
+    {
+      "id": "loc2",
+      "title": "Sede Marcello",
+      "address": "Via Benedetto Marcello, 77, 20124 <br>Milano MI, Italia",
+      "lat": 45.481825,
+      "lng": 9.208832,
+      "img": "locations/loc2.jpg",
+      "hours": "Lun - Sab: 9:00 - 21:00",
+      "tel": "(02) 33344566",
+      "mail": "marcello@takecare.com",
+      "fax": "123 456789",
+      "description": "Ex piscina comunale ristrutturata ed adattata allo scopo. L'edificio spazioso offre tutti i servizi garantiti dagli standard dell'associazione, inoltre in questa struttura siamo in grado di fornire trattamenti specifici, spesso volti alla lotta contro le paure irrazionali, di cui spesso l'acqua fa parte.",
+      "services": [
+        "service2",
+        "service4",
+        "service5"
+      ]
+    },
+    {
+      "id": "loc3",
+      "title": "Sede Arzaga",
+      "address": "Via Arzaga, 11, 20146 <br>Milano MI, Italia",
+      "lat": 45.456303,
+      "lng": 9.137249,
+      "img": "locations/loc3.jpg",
+      "hours": "Lun - Sab: 9:00 - 21:00",
+      "tel": "(02) 33344566",
+      "mail": "arzaga@takecare.com",
+      "fax": "123 456789",
+      "description": "I complesso in questione si erge su un territorio piuttosto vasto. In principio la quasi totalità era di natura boschiva, oggi parte di ciò che un tempo era una tenuta di caccia è diventato un campetto di calcetto. Gli sport di squadra sono un ostacolo non indifferente  per i bambini affetti da autismo, ostacolo che ci proponiamo di superare in preparazione ad un inserimento in società idelmente totale nell'età adulta.",
+      "services": [
+        "service3",
+        "service5"
+      ]
+    },
+    {
+      "id": "loc4",
+      "title": "Sede Buonarroti",
+      "address": "Via Buonarroti, 48, 20145 <br>Milano MI, Italia",
+      "lat": 45.472356,
+      "lng": 9.156519,
+      "img": "locations/loc4.jpg",
+      "hours": "Lun - Sab: 9:00 - 21:00",
+      "tel": "(02) 33344566",
+      "mail": "buonarroti@takecare.com",
+      "fax": "123 456789",
+      "description": "I complesso in questione si erge su un territorio piuttosto vasto. In principio la quasi totalità era di natura boschiva, oggi parte di ciò che un tempo era una tenuta di caccia è diventato un campetto di calcetto. Gli sport di squadra sono un ostacolo non indifferente  per i bambini affetti da autismo, ostacolo che ci proponiamo di superare in preparazione ad un inserimento in società idelmente totale nell'età adulta.",
+      "services": [
+        "service2",
+        "service3",
+        "service5"
+      ]
+    },
+    {
+      "id": "loc5",
+      "title": "Sede Forlanini",
+      "address": "Via Forlanini, 95, 20046 <br>Milano MI, Italia",
+      "lat": 45.581383,
+      "lng": 9.088767,
+      "img": "locations/loc5.jpg",
+      "hours": "Lun - Sab: 9:00 - 21:00",
+      "tel": "(02) 33344566",
+      "mail": "forlanini@takecare.com",
+      "fax": "123 456789",
+      "description": "I complesso in questione si erge su un territorio piuttosto vasto. In principio la quasi totalità era di natura boschiva, oggi parte di ciò che un tempo era una tenuta di caccia è diventato un campetto di calcetto. Gli sport di squadra sono un ostacolo non indifferente  per i bambini affetti da autismo, ostacolo che ci proponiamo di superare in preparazione ad un inserimento in società idelmente totale nell'età adulta.",
+      "services": [
+        "service1",
+        "service5"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "id": "service1",
+      "title": "Equitazione",
+      "description": "Il mondo animale è vasto e meraviglioso, vogliamo che tutti se ne rendano conto e la nostra soluzione è stata questa, l'equitazione. I cavalli sono animali docili e maestposi, i nostri istruttori riusciranno a farvi provare la gioia del cavalcare.",
+      "img": "services/equitazione.jpg"
+    },
+    {
+      "id": "service2",
+      "title": "Corsi di Nuoto",
+      "description": "Saper nuotare oggigiorno è un'abilità che spesso diamo per scontato e non esserne in grado può essere pericoloso. Nella nostra piscina privata offriamo corsi di nuoto a tutti i nostri ospiti.",
+      "img": "services/nuoto.jpg"
+    },
+    {
+      "id": "service3",
+      "title": "Propedeutica al Calcetto",
+      "description": "Lo sport più seguito del Bel Paese ha un'importanza fondamentale e può portare immensa gioia. I nostri allenatori qualificati saranno in grado di dare questa gioia a tutti i nostri ospiti.",
+      "img": "services/calcio.jpg"
+    },
+    {
+      "id": "service4",
+      "title": "Integrazione infantile",
+      "description": "Imparare a farsi degli amici può essere difficile ma un ambiente controllato e giovanissimi volontari privi di pregiudizi possono fare la differenza.",
+      "img": "services/integrazione_nel_gioco.jpg"
+    },
+    {
+      "id": "service5",
+      "title": "Didattica Ausiliare",
+      "description": "La scuola può essere dura ma con noi diventa una passeggiata. I nostri insegnanti qualificati potranno aiutarvi nei compiti a casa e a capire i concetti poco chiari tramite tecniche di insegnamento uno a uno.",
+      "img": "services/didattica_ausiliare.jpg"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "profile1",
+      "first_name": "Alessandro",
+      "last_name": "Venerus",
+      "img": "staff/venny.jpg",
+      "job": "Project Manager",
+      "education": "Politecnico di Milano",
+      "experience": "4 anni",
+      "expertise": "Giocatore di golf",
+      "bio": "Un ragazzo semplice con un grande sogno e la volontà di vederlo realizzato",
+      "tel": "+39 333 4445678",
+      "mail": "a.venerus@takecare.com",
+      "twitter": "@venny",
+      "services": [
+        "service1",
+        "service3"
+      ]
+    },
+    {
+      "id": "profile2",
+      "first_name": "Andrea",
+      "last_name": "Dal Cin",
+      "img": "staff/dalcio.jpg",
+      "job": "Direttore esecutivo",
+      "education": "Politecnico di Milano",
+      "experience": "3 anni",
+      "expertise": "Campione olimpico di sci",
+      "bio": "Un ragazzo semplice con un grande sogno e la volontà di vederlo realizzato",
+      "tel": "+39 333 4445678",
+      "mail": "a.dalcin@takecare.com",
+      "twitter": "@dalcio",
+      "services": [
+        "service2",
+        "service3"
+      ]
+    },
+    {
+      "id": "profile3",
+      "first_name": "Andrea",
+      "last_name": "Calici",
+      "img": "staff/cali.jpg",
+      "job": "Presidente",
+      "education": "Politecnico di Milano",
+      "experience": "6 anni",
+      "expertise": "Nuotatore professionista",
+      "bio": "Un ragazzo semplice con un grande sogno e la volontà di vederlo realizzato",
+      "tel": "+39 333 4445678",
+      "mail": "a.calici@mtakecare.com",
+      "twitter": "@cali",
+      "services": [
+        "service3",
+        "service5"
+      ]
+    },
+    {
+      "id": "profile4",
+      "first_name": "Andrea",
+      "last_name": "D'Uva",
+      "img": "staff/duva.jpg",
+      "job": "Direttore",
+      "education": "Politecnico di Milano",
+      "experience": "4 anni",
+      "expertise": "Capitano Lainate Calcio",
+      "bio": "Un ragazzo semplice con un grande sogno e la volontà di vederlo realizzato",
+      "tel": "+39 333 4445678",
+      "mail": "a.duva@takecare.com",
+      "twitter": "@uva",
+      "services": [
+        "service2",
+        "service4"
+      ]
+    },
+    {
+      "id": "profile5",
+      "first_name": "Marco",
+      "last_name": "Bornoroni",
+      "img": "staff/borno.jpg",
+      "job": "Associato",
+      "education": "Politecnico di Milano",
+      "experience": "2 anni",
+      "expertise": "Psicologia e pediatria",
+      "bio": "Un ragazzo semplice con un grande sogno e la volontà di vederlo realizzato",
+      "tel": "+39 333 4445678",
+      "mail": "m.bornoroni@takecare.com",
+      "twitter": "@born",
+      "services": [
+        "service1",
+        "service4"
+      ]
+    }
+  ]
+}

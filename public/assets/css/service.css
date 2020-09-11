@@ -1,0 +1,112 @@
+#service-container {
+    margin-top: 1.5em;
+}
+
+.service-card {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    border: 0;
+    padding: 1.25em 0 1.25em 0;
+    border-top: 1px solid #d5d5d6;
+    border-radius: 0;
+}
+
+.service-card .card-img-top {
+    width: 28%;
+    align-self: start;
+    margin-right: 15px !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.service-card .card-body, .service-card-big .card-body {
+    align-self: start;
+    flex: 1;
+    padding: 0;
+}
+
+.service-card h5 {
+    margin-bottom: 0.5em;
+}
+
+#services-row {
+    margin-top: 0.5em;
+}
+
+.max-lines {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 1.5em;
+    max-height: 4.5em;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .max-lines {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        line-height: 1.5em;
+        max-height: 6em;
+    }
+
+    #services-row {
+        padding-left: 5px;
+        margin-top: 0;
+    }
+
+    #services-row .col-12 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .service-card {
+        display: block;
+        padding: 0;
+        margin-top: 1em;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+        background-clip: unset;
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+        transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    }
+
+    .service-card:hover {
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, .15);
+    }
+
+    .service-card .card-img-top {
+        width: 100%;
+        border-top-left-radius: calc(0.25rem - 1px);
+        border-top-right-radius: calc(0.25rem - 1px);
+        height: 10em;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .service-card .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 1rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #service-container {
+        margin-top: 2.75em;
+    }
+
+    #service-image {
+        object-position: center;
+        object-fit: cover;
+        height: 220px;
+    }
+}

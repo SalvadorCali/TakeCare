@@ -1,0 +1,23 @@
+{
+  "name": "polimi-hyp-2017-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://polimi-hyp-2017-10173412@bitbucket.org/polimi-hyp-2017-10173412/polimi-hyp-2018-project.git",
+  "author": "Vittorio Zaccaria <vittorio.zaccaria@polimi.it>",
+  "engines": {
+    "node": ">= 7.5.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "knex": "0.13.0",
+    "lodash": "4.17.4",
+    "npm": "^6.1.0",
+    "pg": "6.2.3",
+    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  }
+}
